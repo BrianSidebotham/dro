@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name dro)(type Legacy)(uri ${KIPRJMOD}/symbols/dro.lib)(options "")(descr ""))
+)
