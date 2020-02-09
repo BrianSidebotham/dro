@@ -1,0 +1,5 @@
+.*
+!.gitignore
+*.bck
+*.bak
+*.sch-bak

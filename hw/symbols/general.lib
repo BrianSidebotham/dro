@@ -1,0 +1,54 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# capacitor
+#
+DEF capacitor C 0 40 N N 1 F N
+F0 "C" 10 -80 50 H V L CNN
+F1 "capacitor" 20 -410 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -50 -10 50 -30 0 1 0 N
+S -50 10 50 30 0 1 0 N
+P 2 0 1 0 0 -100 0 -30 N
+P 2 0 1 0 0 30 0 100 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ ~ 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# capacitor_e
+#
+DEF capacitor_e C 0 40 N N 1 F N
+F0 "C" 10 -80 50 H V L CNN
+F1 "capacitor_e" 20 -410 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -50 -10 50 -30 0 1 0 F
+S -50 10 50 30 0 1 0 N
+P 2 0 1 0 0 -100 0 -30 N
+P 2 0 1 0 0 30 0 100 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ ~ 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# resistor
+#
+DEF resistor R 0 40 N N 1 F N
+F0 "R" 0 -75 50 H V C CNN
+F1 "resistor" 0 -150 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -75 25 75 -25 0 1 0 N
+P 2 0 1 0 -100 0 -75 0 N
+P 2 0 1 0 75 0 100 0 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
